@@ -10,17 +10,18 @@
   <body>
     <div class='container is-fluid'>
       <header>
-        <h2>VSearch</h2>
-        <p<>Search</p>
+        <h2 class='mainColor'>VSearch</h2>
+        
       </header>
       <section>
         <div class='container is-fluid'>
-          <input id='search'/>
-          <button onclick="execute()">Search</button>
-          <button onclick="filterDate()">By Date Desc</button>
-          <button onclick="filterDateAscending()">By Date Asc</button>
-          <button onclick="filterViewCount()">By Views Desc</button>
-          <button onclick="filterViewCountAscending()">By Views Asc</button>
+          <p class='secondaryColor'>Search for videos</p>
+          <input class='input' id='search'/>
+          <button class='button' onclick="search()">Search</button>
+          <button class='button' onclick="filterDate()">By Date Desc</button>
+          <button class='button' onclick="filterDateAscending()">By Date Asc</button>
+          <button class='button' onclick="filterViewCount()">By Views Desc</button>
+          <button class='button' onclick="filterViewCountAscending()">By Views Asc</button>
         </div>
       </section>
     </div>

@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 1.3em;
+}
+
+header {
+  padding: 1em 0.8em;
+}
+
+.mainColor {
+  color: #1790fb;
+  margin: 0.5em 0;
+}
+.secondaryColor {
+  color: #29be88;
+  margin: 0.5em 0;
+}
+section {
+  padding: 1em 0.5em;
+}
+
+#search {
+  margin: 1em 0.2em;
+}
+
+#search:hover {
+  opacity: 0.8;
+}
+
+.video {
+  padding: 1em 1em;
+}
+
+.videoTitle {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: 0.8em;
+}
